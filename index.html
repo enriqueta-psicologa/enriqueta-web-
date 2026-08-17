@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enriqueta Celdrán · Psicóloga en Cartagena</title>
+  <meta name="description" content="Te ayudo a gestionar la ansiedad, mejorar tu autoestima y recuperar tu bienestar emocional. Consulta presencial y online en Cartagena." />
+  <link rel="icon" type="image/png" href="asset/css/imagenes/logoisotipo.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="asset/css/imagenes/logoisotipo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <img src="asset/css/imagenes/logoisotipo.png" alt="Logotipo Enriqueta Celdrán" class="nav__icon-img" />
+      <span class="nav__name">Enriqueta Celdrán</span>
+    </div>
+    <button class="nav__toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#como-trabajo">Cómo trabajo</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contacto" class="nav__cta">Agendar sesión</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <p class="hero__tag">Psicóloga · Cartagena</p>
+      <h1 class="hero__title">
+        Este es 
+        <em>tu espacio.</em>
+      </h1>
+      <p class="hero__subtitle">
+        Te ayudo a gestionar la ansiedad, mejorar tu autoestima<br class="hide-mobile"/>
+        y recuperar tu bienestar emocional.
+      </p>
+      <div class="hero__actions">
+        <a href="#contacto" class="btn btn--primary">Agendar primera sesión</a>
+        <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+      </div>
+      <p class="hero__modes">
+        <span class="dot"></span> Consulta presencial &amp; online
+      </p>
+    </div>
+    <div class="hero__image-wrap">
+      <div class="hero__image-placeholder">
+        <img src="asset/css/imagenes/logoisotipo.png" alt="Isotipo Enriqueta Celdrán" class="hero__symbol-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FRANJA DESTACADA (MARQUEE INFINITO) -->
+  <div class="banner">
+    <div class="banner__track">
+      <div class="banner__group">
+        <span>Ansiedad</span><span class="sep">·</span>
+        <span>Autoestima</span><span class="sep">·</span>
+        <span>Duelo</span><span class="sep">·</span>
+        <span>Agotamiento emocional</span><span class="sep">·</span>
+        <span>Ataques de pánico</span><span class="sep">·</span>
+        <span>Bienestar emocional</span><span class="sep">·</span>
+        <span>Gestión del estrés</span><span class="sep">·</span>
+        <span>Límites personales</span><span class="sep">·</span>
+      </div>
+      <div class="banner__group" aria-hidden="true">
+        <span>Ansiedad</span><span class="sep">·</span>
+        <span>Autoestima</span><span class="sep">·</span>
+        <span>Duelo</span><span class="sep">·</span>
+        <span>Agotamiento emocional</span><span class="sep">·</span>
+        <span>Ataques de pánico</span><span class="sep">·</span>
+        <span>Bienestar emocional</span><span class="sep">·</span>
+        <span>Gestión del estrés</span><span class="sep">·</span>
+        <span>Límites personales</span><span class="sep">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOBRE MÍ -->
+  <section class="section sobre" id="sobre-mi">
+    <div class="container sobre__grid">
+      <div class="sobre__image-wrap">
+        <div class="sobre__image-container">
+          <img src="asset/css/imagenes/enriquetaPerfil.jpeg" alt="Enriqueta Celdrán - Psicóloga en Cartagena" class="sobre__photo" />
+        </div>
+        <!-- <div class="sobre__badge">
+          <span class="sobre__badge-num">+8</span>
+          <span class="sobre__badge-text">años de experiencia</span>
+        </div> -->
+      </div>
+      <div class="sobre__text">
+        <p class="label">Sobre mí</p>
+        <h2 class="sobre__heading">Soy Enriqueta,<br/> <em>psicóloga en Cartagena</em></h2>
+        <p class="sobre__body">
+          Creo en la terapia como un espacio seguro donde puedes ser exactamente quien eres,
+          sin filtros ni miedo a ser juzgada. Mi enfoque es cálido, práctico y orientado a que
+          comprendas tus emociones para poder transformarlas.
+        </p>
+        <p class="sobre__body">
+          Trabajo con personas que se sienten desbordadas, que llevan cargas que nadie ve,
+          que quieren dejar de sobrevivir y empezar a vivir con más calma y confianza en sí mismas.
+        </p>
+        <ul class="sobre__list">
+          <li class="sobre__item">
+            <div class="sobre__icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a9 9 0 0 1 9 9c0 3.8-2.3 7-5.5 8.3L15 22h-6l-.5-2.7C5.3 18 3 14.8 3 11a9 9 0 0 1 9-9z"/>
+                <path d="M9 10h6"/>
+                <path d="M12 7v6"/>
+              </svg>
+            </div>
+            <div class="sobre__item-text">
+              <strong>Psicología clínica y de la salud</strong>
+              <span>Evaluación y tratamiento sanitario respaldado por la evidencia científica.</span>
+            </div>
+          </li>
+
+          <li class="sobre__item">
+            <div class="sobre__icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                <path d="M8 9h8"/>
+                <path d="M8 13h5"/>
+              </svg>
+            </div>
+            <div class="sobre__item-text">
+              <strong>Terapia cognitivo-conductual</strong>
+              <span>Herramientas prácticas para comprender y transformar tus pensamientos.</span>
+            </div>
+          </li>
+
+          <li class="sobre__item">
+            <div class="sobre__icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 8v4l3 3"/>
+                <path d="M8 3.5l-2-2"/>
+                <path d="M16 3.5l2-2"/>
+              </svg>
+            </div>
+            <div class="sobre__item-text">
+              <strong>Gestión de la ansiedad y el estrés</strong>
+              <span>Estrategias para desactivar el estado de alerta y recuperar la calma.</span>
+            </div>
+          </li>
+
+          <li class="sobre__item">
+            <div class="sobre__icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9z"/>
+                <path d="M12 3v9"/>
+                <path d="M12 7a5 5 0 0 1 5 5"/>
+              </svg>
+            </div>
+            <div class="sobre__item-text">
+              <strong>Inteligencia emocional y duelos</strong>
+              <span>Acompañamiento cercano en el regulación de emociones.</span>
+            </div>
+          </li>
+        </ul>
+        <a href="#contacto" class="btn btn--primary">Hablemos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section servicios" id="servicios">
+    <div class="container">
+      <div class="section__header">
+        <p class="label">Servicios</p>
+        <h2>¿En qué puedo <em>ayudarte?</em></h2>
+        <p class="section__intro">Trabajo contigo lo que necesitas, no lo que se supone que deberías sentir.</p>
+      </div>
+      <div class="servicios__grid">
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M14 26C14 26 17 21 21 21C25 21 27 27 31 27C35 27 38 23 38 23" stroke="#7A5538" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 20C14 20 18 16 22 16C26 16 29 21 34 20" stroke="#7A9B80" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="22" cy="16" r="2.5" fill="#7A9B80"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Ansiedad</h3>
+          <p class="card__text">Esa sensación de que algo va a pasar, de que no puedes parar. Aprenderás a reconocerla, comprenderla y gestionarla sin que te paralice.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M24 34S13 27.5 13 19.5A6.5 6.5 0 0 1 24 15a6.5 6.5 0 0 1 11 4.5C35 27.5 24 34 24 34Z" stroke="#7A5538" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M24 18V25M21 21.5H27" stroke="#7A9B80" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Autoestima</h3>
+          <p class="card__text">Dejar de exigirte lo imposible. Aprender a tratarte con la misma amabilidad que le darías a alguien que quieres.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M24 13C24 13 16 22 16 28A8 8 0 0 0 32 28C32 22 24 13 24 13Z" stroke="#7A5538" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24 23V31M24 27C21.5 27 20 25.5 20 25.5M24 25C26.5 25 28 23.5 28 23.5" stroke="#7A9B80" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Duelo y pérdidas</h3>
+          <p class="card__text">Pérdidas que también son duelo aunque nadie las reconozca como tal. Acompañamiento en procesos de pérdida de todo tipo.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M15 17H31A3 3 0 0 1 34 20V30A3 3 0 0 1 31 33H15A3 3 0 0 1 12 30V20A3 3 0 0 1 15 17Z" stroke="#7A5538" stroke-width="2"/>
+              <path d="M34 22H36A1.5 1.5 0 0 1 37.5 23.5V26.5A1.5 1.5 0 0 1 36 28H34" stroke="#7A5538" stroke-width="2"/>
+              <rect x="16" y="21" width="8" height="8" rx="1.5" fill="#7A9B80"/>
+              <path d="M21 13L19 17H23L21 21" stroke="#A6845F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Agotamiento emocional</h3>
+          <p class="card__text">Lo que parece desmotivación a veces es agotamiento emocional. Te ayudo a identificarlo y a recuperar tu energía vital.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M24 13L34 17V24C34 30.5 29.5 35.5 24 37C18.5 35.5 14 30.5 14 24V17L24 13Z" stroke="#7A5538" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 25L23 28L28 21" stroke="#7A9B80" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Ataques de pánico</h3>
+          <p class="card__text">Pensé que me estaba dando un infarto... y era un ataque de pánico. Aprende a manejarlos y a que dejen de dominar tu vida.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" fill="#F0E4D3" opacity="0.7"/>
+              <path d="M24 33C24 33 15 28 15 21C15 17 18 15 21 16.5C24 18 24 21 24 21C24 21 24 18 27 16.5C30 15 33 17 33 21C33 28 24 33 24 33Z" stroke="#7A5538" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="14" r="2" fill="#7A9B80"/>
+              <path d="M12 33H36" stroke="#C4A882" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Bienestar emocional</h3>
+          <p class="card__text">No todo el mundo merece una entrada VIP a tu mundo emocional. Aprende a poner límites y a cuidarte desde adentro.</p>
+        </div>
+
+      </div>
+      <div class="servicios__modalidad">
+        <div class="modalidad-card">
+          <div class="modalidad-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h4>Presencial</h4>
+          <p>Consulta en Cartagena, en un espacio tranquilo y privado.</p>
+        </div>
+        <div class="modalidad-card">
+          <div class="modalidad-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h4>Online</h4>
+          <p>Desde donde estés, con la misma cercanía y confidencialidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO TRABAJO -->
+  <section class="section proceso" id="como-trabajo">
+    <div class="container">
+      <div class="section__header">
+        <p class="label">El proceso</p>
+        <h2>Cómo <em>trabajamos juntas</em></h2>
+        <p class="section__intro">Sin listas de espera eternas. Sin protocolos fríos. Solo tú y un espacio para empezar.</p>
+      </div>
+      <div class="proceso__steps">
+        <div class="step">
+          <div class="step__num">01</div>
+          <div class="step__content">
+            <h3>Primer contacto</h3>
+            <p>Me escribes por WhatsApp o rellenas el formulario. Sin compromisos, sin formularios interminables. Solo cuéntame qué necesitas.</p>
+          </div>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__num">02</div>
+          <div class="step__content">
+            <h3>Primera sesión</h3>
+            <p>Nos conocemos. Me cuentas lo que te trae aquí, yo te explico cómo trabajo. Decidimos juntas si tiene sentido continuar.</p>
+          </div>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__num">03</div>
+          <div class="step__content">
+            <h3>Plan personalizado</h3>
+            <p>Diseñamos un proceso a tu medida: frecuencia de sesiones, objetivos y herramientas que se adapten a tu ritmo de vida.</p>
+          </div>
+        </div>
+        <div class="step__line"></div>
+        <div class="step">
+          <div class="step__num">04</div>
+          <div class="step__content">
+            <h3>Acompañamiento continuo</h3>
+            <p>Trabajamos, avanzamos, ajustamos. La terapia se mueve contigo, no al revés.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITA INSPIRACIONAL -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote class="quote">
+        <p>Todas llevamos cosas que nadie ve.<br/>
+        <em>A veces, lo más difícil no se nota.</em></p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES Y CONTACTO COMBINADOS -->
+  <section class="section faq-contacto" id="faq">
+    <div id="contacto"></div>
+    <div class="container">
+      
+      <!-- ENCABEZADO UNIFICADO DE LA SECCIÓN -->
+      <div class="section__header">
+        <p class="label">Preguntas frecuentes &amp; Contacto</p>
+        <h2>¿Tienes dudas? <em>¿Empezamos juntas?</em></h2>
+        <p class="section__intro">Encuentra respuestas a las preguntas más habituales o escríbeme directamente por WhatsApp para agendar tu primera sesión.</p>
+      </div>
+
+      <div class="faq-contacto__grid">
+        
+        <!-- CUADRO IZQUIERDO: PREGUNTAS FRECUENTES -->
+        <div class="faq-contacto__box faq-box">
+          <h3 class="faq-box__title">Preguntas habituales</h3>
+
+          <div class="faq__list">
+            <details class="faq__item">
+              <summary class="faq__question">¿Cómo sé si necesito ir al psicólogo?</summary>
+              <div class="faq__answer">
+                <p>Si sientes que algo no va bien, que te cuesta más de lo normal afrontar el día a día, que tus emociones te desbordan o que llevas mucho tiempo sintiéndote mal, eso ya es motivo suficiente. Cuidar tu salud mental es tan válido como cuidar tu salud física.</p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">¿Cuánto dura una sesión y con qué frecuencia nos vemos?</summary>
+              <div class="faq__answer">
+                <p>Las sesiones duran aproximadamente 50 minutos. La frecuencia habitual es semanal al principio y se ajusta según tu evolución.</p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">¿Las sesiones online funcionan igual que las presenciales?</summary>
+              <div class="faq__answer">
+                <p>Sí. Las sesiones online son igual de efectivas, confidenciales y cercanas. Solo necesitas un espacio tranquilo y conexión a internet.</p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">¿Cuánto tiempo necesitaré hacer terapia?</summary>
+              <div class="faq__answer">
+                <p>Depende de cada persona. Trabajamos a tu ritmo y con objetivos claros para que en cada etapa sepas dónde estás y hacia dónde vamos.</p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">¿Es confidencial todo lo que cuento?</summary>
+              <div class="faq__answer">
+                <p>Absolutamente. La confidencialidad y el secreto profesional son la base fundamental de mi trabajo terapéutico.</p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">¿Cómo agendo mi primera cita?</summary>
+              <div class="faq__answer">
+                <p>Puedes escribirme directamente por WhatsApp. Te respondo en menos de 24 horas y buscamos el momento ideal para ti.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <!-- CUADRO DERECHO: CONTACTO DIRECTO WHATSAPP -->
+        <div class="faq-contacto__box contacto-box">
+          <span class="contacto-box__tag">Atención directa</span>
+          <h3>Hablemos por WhatsApp</h3>
+          <p class="contacto-box__intro">Da el primer paso. No tienes que tenerlo todo claro para empezar. Escríbeme y buscamos un hueco que encaje contigo.</p>
+
+          <div class="contacto-box__wa">
+            <a href="https://wa.me/34672069668" class="btn btn--whatsapp btn--wa-compact" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="wa-icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Escribir por WhatsApp
+            </a>
+            <span class="contacto-box__phone">📱 +34 672 069 668</span>
+          </div>
+
+          <div class="contacto-box__details">
+            <div class="contacto-box__detail-item">
+              <span class="detail-icon">📍</span>
+              <div>
+                <strong>Consulta Presencial</strong>
+                <span>Cartagena, España</span>
+              </div>
+            </div>
+            <div class="contacto-box__detail-item">
+              <span class="detail-icon">💻</span>
+              <div>
+                <strong>Atención Online</strong>
+                <span>Desde donde estés</span>
+              </div>
+            </div>
+            <div class="contacto-box__detail-item">
+              <span class="detail-icon">⏱</span>
+              <div>
+                <strong>Respuesta rápida</strong>
+                <span>En menos de 24 horas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="asset/css/imagenes/logoisotipo.png" alt="Logotipo Enriqueta Celdrán" class="footer__icon-img" />
+        <div>
+          <p class="footer__name">Enriqueta Celdrán</p>
+          <p class="footer__subtitle">Psicóloga · Cartagena</p>
+        </div>
+      </div>
+      <nav class="footer__links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#como-trabajo">Cómo trabajo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="footer__legal-links">
+        <a href="aviso-legal.html" data-modal="aviso-legal">Aviso Legal</a>
+        <span>·</span>
+        <a href="politica-privacidad.html" data-modal="politica-privacidad">Política de Privacidad</a>
+        <span>·</span>
+        <a href="politica-cookies.html" data-modal="politica-cookies">Política de Cookies</a>
+        <span>·</span>
+        <button id="openCookieSettings">Preferencias de cookies</button>
+      </div>
+      <p class="footer__legal">© 2024 Enriqueta Celdrán · Psicóloga colegiada · Todos los derechos reservados (Cumplimiento UE / RGPD / LSSI)</p>
+    </div>
+  </footer>
+
+  <!-- BANNER DE COOKIES (RGPD / LSSI-CE UE) -->
+  <div class="cookie-banner hidden" id="cookieBanner">
+    <div class="cookie-banner__text">
+      <h4>Uso de Cookies y Privacidad</h4>
+      <p>Utilizamos cookies propias necesarias para el funcionamiento del sitio y recordar tus preferencias. Puedes aceptar todas las cookies, rechazarlas o ver más información en nuestra <a href="politica-cookies.html" data-modal="politica-cookies">Política de Cookies</a>.</p>
+    </div>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--accept" id="btnAcceptCookies">Aceptar todas</button>
+      <button class="cookie-btn cookie-btn--reject" id="btnRejectCookies">Rechazar opcionales</button>
+      <button class="cookie-btn cookie-btn--settings" data-modal="politica-cookies">Configurar</button>
+    </div>
+  </div>
+
+  <!-- MODAL PARA DOCUMENTOS LEGALES EN SPA -->
+  <div class="legal-modal" id="legalModal" aria-hidden="true" role="dialog">
+    <div class="legal-modal__dialog">
+      <div class="legal-modal__header">
+        <h3 class="legal-modal__title" id="legalModalTitle">Documento Legal</h3>
+        <button class="legal-modal__close" id="legalModalClose" aria-label="Cerrar">&times;</button>
+      </div>
+      <div class="legal-modal__body" id="legalModalBody">
+        <!-- El contenido legal se cargará aquí dinámicamente -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+        // Close mobile menu
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+
+    // Nav scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu toggle
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // Fade in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.card, .step, .faq__item, .modalidad-card').forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+
+    // ============================================
+    // GESTIÓN DE COOKIES (RGPD / LSSI-CE UE)
+    // ============================================
+    const cookieBanner = document.getElementById('cookieBanner');
+    const btnAcceptCookies = document.getElementById('btnAcceptCookies');
+    const btnRejectCookies = document.getElementById('btnRejectCookies');
+    const openCookieSettings = document.getElementById('openCookieSettings');
+
+    function checkCookieConsent() {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('reset_cookies')) {
+        localStorage.removeItem('cookies_consent');
+        setTimeout(() => {
+          if (cookieBanner) cookieBanner.classList.remove('hidden');
+        }, 300);
+        return;
+      }
+
+      const consent = localStorage.getItem('cookies_consent');
+      if (!consent) {
+        setTimeout(() => {
+          if (cookieBanner) cookieBanner.classList.remove('hidden');
+        }, 600);
+      }
+    }
+
+    if (btnAcceptCookies) {
+      btnAcceptCookies.addEventListener('click', () => {
+        localStorage.setItem('cookies_consent', 'accepted');
+        cookieBanner.classList.add('hidden');
+      });
+    }
+
+    if (btnRejectCookies) {
+      btnRejectCookies.addEventListener('click', () => {
+        localStorage.setItem('cookies_consent', 'rejected');
+        cookieBanner.classList.add('hidden');
+      });
+    }
+
+    if (openCookieSettings) {
+      openCookieSettings.addEventListener('click', () => {
+        if (cookieBanner) cookieBanner.classList.remove('hidden');
+      });
+    }
+
+    // Delegación de eventos global para el botón "Reconfigurar Preferencias de Cookies" (funciona tanto en página directa como en modal)
+    document.addEventListener('click', (e) => {
+      const resetBtn = e.target.closest('#resetCookiesBtn, [data-action="reset-cookies"]');
+      if (resetBtn) {
+        e.preventDefault();
+        localStorage.removeItem('cookies_consent');
+        if (typeof closeModal === 'function') closeModal();
+        if (cookieBanner) {
+          cookieBanner.classList.remove('hidden');
+          cookieBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+    });
+
+    checkCookieConsent();
+
+    // ============================================
+    // MODAL INTERACTIVO DE DOCUMENTOS LEGALES
+    // ============================================
+    const legalModal = document.getElementById('legalModal');
+    const legalModalTitle = document.getElementById('legalModalTitle');
+    const legalModalBody = document.getElementById('legalModalBody');
+    const legalModalClose = document.getElementById('legalModalClose');
+
+    function openModal(title, content) {
+      legalModalTitle.textContent = title;
+      legalModalBody.innerHTML = content;
+      legalModal.classList.add('open');
+      legalModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      legalModal.classList.remove('open');
+      legalModal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    if (legalModalClose) {
+      legalModalClose.addEventListener('click', closeModal);
+    }
+
+    if (legalModal) {
+      legalModal.addEventListener('click', (e) => {
+        if (e.target === legalModal) closeModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && legalModal.classList.contains('open')) closeModal();
+      });
+    }
+
+    // Modal triggers logic
+    document.querySelectorAll('[data-modal]').forEach(trigger => {
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        const pageKey = trigger.getAttribute('data-modal');
+        const href = trigger.getAttribute('href') || `${pageKey}.html`;
+        
+        fetch(href)
+          .then(res => {
+            if (!res.ok) throw new Error('Network error');
+            return res.text();
+          })
+          .then(html => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const title = doc.querySelector('h1')?.textContent || 'Información Legal';
+            const content = doc.querySelector('.legal-content')?.innerHTML || doc.body.innerHTML;
+            openModal(title, content);
+          })
+          .catch(() => {
+            window.location.href = href;
+          });
+      });
+    });
+  </script>
+
+</body>
+</html>
